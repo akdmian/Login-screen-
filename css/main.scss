@@ -1,0 +1,107 @@
+@import 'resets.scss'; 
+
+
+// font-family: 'Quicksand', sans-serif;
+
+// COLORS
+
+$Color01: #e59f71;
+$Color02: #ba5a31;
+$Color03: #0c0c0c;
+$Color04: #69dc9e;
+$Color05: #ffffff;
+
+
+
+
+body {
+    background-color: $Color04;
+    font-family: 'Quicksand', sans-serif;
+    
+    
+}
+
+.header {
+    height: auto;
+    width: 100%;
+    //background-color: $Color05;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    
+    .logo {
+        width: 100%;
+
+        img {
+            max-width: 130px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 50px;
+            font-size: 40pt;
+            font-weight: 800;
+            color: $Color05;
+        }
+    }    
+}
+
+.signin-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+    
+    .signin-form {
+        padding: 50px;
+        margin-top: 50px;
+        width: auto;
+        height: auto;
+        box-shadow: 27px 24px 26px -20px rgba(0,0,0,0.20);
+        border-radius: 20px;
+
+        h2 {
+            color: $Color05;
+            font-weight: 600;
+            font-size: 14pt;
+            text-align: center;  
+        }
+
+        label {
+            color: $Color05;
+            font-weight: 400;
+            font-size:12pt;
+            margin-left: 20px;    
+        }
+
+        input {
+            margin-top: 5px;
+            width: 260px;
+            height: 27px;
+            border-radius: 30px;
+            border-style: none;
+            color: #c2c2c2;
+        }
+
+        a {
+           font-size: 10pt;
+           color: $Color03;
+        }
+
+        .input-signin {
+            background-color: $Color03;
+            width: 100px;
+            margin-bottom: 50px;
+        }
+    }
+    
+}
+
+.footer {
+    text-align: center;
+    color: $Color05;
+    width: 100%;
+    height: auto;
+    
+}
